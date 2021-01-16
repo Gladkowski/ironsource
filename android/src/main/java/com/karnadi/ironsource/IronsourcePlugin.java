@@ -29,7 +29,7 @@ import java.util.Map;
 public class IronsourcePlugin implements MethodCallHandler, InterstitialListener, RewardedVideoListener, OfferwallListener {
 
     public final String TAG = "IronsourcePlugin";
-    public String APP_KEY = "85460dcd";
+    public String APP_KEY = "e76cf091";
     public Placement mPlacement;
     public final String FALLBACK_USER_ID = "userId";
     public final Activity mActivity;
