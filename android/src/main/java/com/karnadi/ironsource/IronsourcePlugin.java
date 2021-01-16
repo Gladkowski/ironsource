@@ -77,6 +77,9 @@ public class IronsourcePlugin implements MethodCallHandler, InterstitialListener
         } else if (call.method.equals(IronSourceConsts.SHOW_REWARDED_VIDEO)) {
             IronSource.showRewardedVideo();
             result.success(null);
+        } else if (call.method.equals(IronSourceConsts.GET_OFFERWALL_CREDITS)) {
+            IronSource.getOfferwallCredits();
+            result.success(null);
         } else if (call.method.equals("activityResumed")) {
             IronSource.onResume(mActivity);
             result.success(null);

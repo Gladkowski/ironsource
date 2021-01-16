@@ -47,6 +47,10 @@ class IronSource {
     await _channel.invokeMethod('showRewardedVideo');
   }
 
+  static Future<Null> getOfferwallCredits() async {
+    await _channel.invokeMethod('getOfferwallCredits');
+  }
+
   static Future<Null> showOfferwall() async {
     await _channel.invokeMethod('showOfferwall');
   }
